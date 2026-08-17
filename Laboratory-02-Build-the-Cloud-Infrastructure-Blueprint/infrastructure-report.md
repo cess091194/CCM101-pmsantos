@@ -1,4 +1,5 @@
 ## Operating System
+```
 PRETTY_NAME="Ubuntu 24.04.4 LTS"
 NAME="Ubuntu"
 VERSION_ID="24.04"
@@ -12,15 +13,16 @@ BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
 PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
 UBUNTU_CODENAME=noble
 LOGO=ubuntu-logo
+```
 
 ## Kernel Version
-6.8.0-136-generic
+`6.8.0-136-generic`
 
 ## CPU Model
-Intel Xeon E312xx (Sandy Bridge, IBRS update)
+`Intel Xeon E312xx (Sandy Bridge, IBRS update)`
 
 ## Number of CPU Cores
-1
+`1`
 
 ## Total RAM
 | | total | used | free | shared | buff/cache | available |
@@ -29,6 +31,7 @@ Intel Xeon E312xx (Sandy Bridge, IBRS update)
 | **Swap** | 1.0Gi | 0B | 1.0Gi | — | — | — |
 
 ## Disk Capacity
+```
 Filesystem      Size  Used Avail Use% Mounted on
 tmpfs           191M  996K  190M   1% /run
 /dev/vda1        19G  5.4G   13G  30% /
@@ -36,8 +39,10 @@ tmpfs           952M   84K  952M   1% /dev/shm
 tmpfs           5.0M     0  5.0M   0% /run/lock
 /dev/vda16      881M  117M  703M  15% /boot
 /dev/vda15      105M  6.2M   99M   6% /boot/efi
+```
 
 ## Mounted File Systems
+```
 sysfs        on  /sys                      type  sysfs        (rw,nosuid,nodev,noexec,relatime)
 proc         on  /proc                     type  proc         (rw,nosuid,nodev,noexec,relatime)
 udev         on  /dev                      type  devtmpfs     (rw,nosuid,relatime,size=954832k,nr_inodes=238708,mode=755,inode64)
@@ -60,9 +65,10 @@ fusectl      on  /sys/fs/fuse/connections  type  fusectl      (rw,nosuid,nodev,n
 /dev/vda16   on  /boot                     type  ext4         (rw,relatime)
 /dev/vda15   on  /boot/efi                 type  vfat         (rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro)
 binfmt_misc  on  /proc/sys/fs/binfmt_misc  type  binfmt_misc  (rw,nosuid,nodev,noexec,relatime)
+```
 
 ## Hostname
-ubuntu
+`ubuntu`
 
 ## IP Address
-172.30.1.2` (primary), `172.17.0.1` (secondary — likely a Docker bridge interface)
+`172.30.1.2` (primary), `172.17.0.1` (secondary — likely a Docker bridge interface)
