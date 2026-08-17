@@ -23,9 +23,10 @@ Intel Xeon E312xx (Sandy Bridge, IBRS update)
 1
 
 ## Total RAM
-              total        used        free      shared  buff/cache   available
-Mem:           1.9Gi       421Mi       862Mi       1.1Mi       786Mi       1.4Gi
-Swap:          1.0Gi          0B       1.0Gi
+| | total | used | free | shared | buff/cache | available |
+|---|---|---|---|---|---|---|
+| **Mem** | 1.9Gi | 421Mi | 862Mi | 1.1Mi | 786Mi | 1.4Gi |
+| **Swap** | 1.0Gi | 0B | 1.0Gi | — | — | — |
 
 ## Disk Capacity
 Filesystem      Size  Used Avail Use% Mounted on
@@ -65,4 +66,3 @@ ubuntu
 
 ## IP Address
 172.30.1.2` (primary), `172.17.0.1` (secondary — likely a Docker bridge interface)
-
