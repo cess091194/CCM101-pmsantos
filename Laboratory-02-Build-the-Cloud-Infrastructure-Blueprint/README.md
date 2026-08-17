@@ -82,9 +82,6 @@ provider-level comparisons are documented in
   using `cat /proc/cpuinfo | grep "model name"` instead, which is the 
   equivalent way to retrieve the CPU model on a system without `lscpu` 
   installed.
-- Formatting long terminal outputs (like `mount` and `df -h`) required 
-  care to keep them inside Markdown code blocks so they would render 
-  correctly on GitHub instead of appearing as unformatted text.
 - Designing the cloud architecture diagram required deciding how to best 
   represent the relationship and data flow between the User, Internet, 
   Network, Compute, and Storage components in a clear and readable way.
