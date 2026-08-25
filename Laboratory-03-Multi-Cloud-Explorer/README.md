@@ -1,11 +1,12 @@
 ### Server Specifications
+---
 - **Operating System:** Ubuntu 24.04.4 LTS (Noble Numbat)
 - **CPU:** 1 vCPU — Intel Xeon E312xx (Sandy Bridge), 2.0GHz
 - **Memory:** 1.9 GiB total RAM (1.5 GiB available), 1 GiB swap
 - **Disk Space:** 19 GB root partition (13 GB available, 30% used)
----
 
 ### Migration Question
+---
 **If this Linux server were migrated to the cloud, which AWS, Azure, and GCP services could host it?**
 
 Based on the specs gathered — 1 vCPU, about 2GB of RAM, and a ~19GB disk — this server fits comfortably into the entry-level/burstable-performance instance tiers offered by each provider, rather than needing a large compute-optimized instance.
@@ -17,7 +18,6 @@ Based on the specs gathered — 1 vCPU, about 2GB of RAM, and a ~19GB disk — t
 **GCP:** On Google Cloud, a **Compute Engine** instance with the **e2-small** or **e2-micro** machine type (1–2 vCPUs, 1–2GB RAM) fits, as part of GCP's cost-optimized general-purpose family. For storage, **Persistent Disk (Standard or Balanced)** sized to match the ~20GB root volume would be appropriate.
 
 **Summary:** Comparing all three providers, this server's low CPU and memory footprint means it belongs in each provider's cheapest general-purpose/burstable tier (AWS t3.micro/small, Azure B1s/B1ms, GCP e2-micro/small) rather than any compute- or memory-optimized instance family — keeping cloud hosting costs minimal for a workload this size.
----
 
 **Operating System Info**
 
