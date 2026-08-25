@@ -20,7 +20,7 @@ The **Google Cloud Console** is the web-based dashboard for managing GCP resourc
 2. **Best-in-class Kubernetes support** – As the creator of Kubernetes, GCP's GKE is widely seen as the most mature managed Kubernetes offering.
 3. **Strong data analytics tools** – BigQuery offers fast, serverless, large-scale data warehousing and analytics.
 
-## Three (3) Typical Enterprise Use Cases
+## Typical Enterprise Use Cases
 1. **AI/ML research and product teams** training and deploying models using Vertex AI and TPUs.
 2. **Data-heavy companies** running large-scale analytics and reporting through BigQuery.
 3. **Cloud-native companies** running containerized microservices architectures on GKE.
