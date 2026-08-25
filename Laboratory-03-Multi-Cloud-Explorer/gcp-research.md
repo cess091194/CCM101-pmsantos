@@ -26,5 +26,6 @@ The **Google Cloud Console** is the web-based dashboard for managing GCP resourc
 3. **Cloud-native companies** running containerized microservices architectures on GKE.
 
 ## Screenshot
-<img width="1885" height="911" alt="Screenshot 2026-08-25 132221" src="https://github.com/user-attachments/assets/7c647cd5-84ec-4f86-9d03-22138c4e8def" />
+<img width="1885" height="911" alt="gcp-homepage" src="https://github.com/user-attachments/assets/2bf7352a-51c0-46fe-b201-7a713c531c0e" />
+
 
