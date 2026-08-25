@@ -26,7 +26,8 @@ The **Azure Portal** is the web-based console for managing Azure resources. Azur
 3. **Line-of-business .NET applications** being modernized or moved to Azure App Service.
 
 ## Screenshot
-![Uploading azure-homepage.png…]()
+<img width="1886" height="912" alt="azure-homepage" src="https://github.com/user-attachments/assets/3ce37b5f-861d-4d6e-99b8-e13548488372" />
+
 
 
 
