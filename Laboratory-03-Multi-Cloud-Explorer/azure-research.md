@@ -20,7 +20,7 @@ The **Azure Portal** is the web-based console for managing Azure resources. Azur
 2. **Strong hybrid cloud support** – Azure Arc and Azure Stack make it easy to extend on-premises environments into the cloud.
 3. **Enterprise trust and compliance** – Wide range of certifications, favored by large enterprises and government agencies already using Microsoft tools.
 
-## Three (3) Typical Enterprise Use Cases
+## Typical Enterprise Use Cases
 1. **Organizations migrating from on-prem Windows Server/Active Directory** to a hybrid or full-cloud environment.
 2. **Enterprises standardized on Microsoft 365** wanting unified identity and security management via Entra ID.
 3. **Line-of-business .NET applications** being modernized or moved to Azure App Service.
