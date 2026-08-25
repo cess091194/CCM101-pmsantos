@@ -1,11 +1,9 @@
 ### Server Specifications
 
-| Attribute | Value |
-|---|---|
-| Operating System | Ubuntu 24.04.4 LTS (Noble Numbat) |
-| CPU | 1 vCPU — Intel Xeon E312xx (Sandy Bridge), 2.0GHz |
-| Memory | 1.9 GiB total RAM (1.5 GiB available), 1 GiB swap |
-| Disk Space | 19 GB root partition (13 GB available, 30% used) |
+- **Operating System:** Ubuntu 24.04.4 LTS (Noble Numbat)
+- **CPU:** 1 vCPU — Intel Xeon E312xx (Sandy Bridge), 2.0GHz
+- **Memory:** 1.9 GiB total RAM (1.5 GiB available), 1 GiB swap
+- **Disk Space:** 19 GB root partition (13 GB available, 30% used)
 
 ### Question: If this Linux server were migrated to the cloud, which AWS, Azure, and GCP services could host it?
 
