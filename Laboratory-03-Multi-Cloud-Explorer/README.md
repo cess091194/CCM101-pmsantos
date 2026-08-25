@@ -5,6 +5,8 @@
 - **Memory:** 1.9 GiB total RAM (1.5 GiB available), 1 GiB swap
 - **Disk Space:** 19 GB root partition (13 GB available, 30% used)
 
+---
+
 ### Migration Question
 **If this Linux server were migrated to the cloud, which AWS, Azure, and GCP services could host it?**
 
