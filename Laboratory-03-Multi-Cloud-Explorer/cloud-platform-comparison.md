@@ -1,4 +1,4 @@
-# Cloud Platform Comparison
+# Cloud Platform Comparison Table
 
 | Category | AWS | Microsoft Azure | Google Cloud Platform |
 |---|---|---|---|
@@ -9,8 +9,6 @@
 | Identity Service | AWS IAM | Microsoft Entra ID | Cloud IAM |
 | Primary Strength | Breadth of services / market leadership | Enterprise & Microsoft ecosystem integration | Data analytics, AI/ML, Kubernetes |
 | Ideal Organizations | Startups to large enterprises needing maximum flexibility | Enterprises already using Microsoft products | Data-driven companies, AI/ML teams, cloud-native startups |
-
-## Analysis Questions
 
 **1. Which cloud provider offers the broadest range of services?**
 AWS offers the broadest range of services overall, with the largest and most mature catalog covering nearly every compute, storage, database, analytics, and IoT use case. This is a natural result of AWS being first to market and continuously expanding for almost two decades.
@@ -23,14 +21,3 @@ Google Cloud Platform leads in both areas. It created Kubernetes and offers GKE 
 
 **4. Which cloud platform would you personally choose and why?**
 This is a personal reflection question — answer based on your own reasoning. For example, you might choose AWS for its broad service catalog and job-market demand, Azure if you're focused on enterprise/Microsoft environments, or GCP if you're most interested in data science and AI/ML. Write 2–3 sentences explaining your own choice and reasoning.
-
-## Checkpoint 5 — Service Reference Table
-
-| Service Category | AWS | Azure | GCP |
-|---|---|---|---|
-| Virtual Machine | Amazon EC2 | Azure Virtual Machines | Compute Engine |
-| Object Storage | Amazon S3 | Azure Blob Storage | Cloud Storage |
-| Identity Management | AWS IAM | Microsoft Entra ID | Cloud IAM |
-| SQL Database | Amazon RDS | Azure SQL Database | Cloud SQL |
-| Kubernetes | Amazon EKS | Azure Kubernetes Service (AKS) | Google Kubernetes Engine (GKE) |
-
