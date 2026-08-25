@@ -4,8 +4,6 @@
 - **Memory:** 1.9 GiB total RAM (1.5 GiB available), 1 GiB swap
 - **Disk Space:** 19 GB root partition (13 GB available, 30% used)
 ---
-
-### Migration Question
 **If this Linux server were migrated to the cloud, which AWS, Azure, and GCP services could host it?**
 
 Based on the specs gathered — 1 vCPU, about 2GB of RAM, and a ~19GB disk — this server fits comfortably into the entry-level/burstable-performance instance tiers offered by each provider, rather than needing a large compute-optimized instance.
