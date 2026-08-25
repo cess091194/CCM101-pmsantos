@@ -21,11 +21,18 @@ Given the server's small footprint — 1 vCPU, ~2GB RAM, and a ~19GB disk — th
 ### Terminal Screenshots
 
 **Operating System Info**
+
 <img width="823" height="285" alt="killercoda-terminal" src="https://github.com/user-attachments/assets/58bd54f4-222f-4f2b-a4de-4f41ac43cde6" />
 
+---
+
 **CPU Information**
+
 <img width="1043" height="762" alt="killercoda-terminal1" src="https://github.com/user-attachments/assets/f63cc338-43a6-47a3-8527-288d22079a01" />
 
+---
+
 **Memory & Disk Space**
+
 <img width="615" height="187" alt="killercoda-terminal2" src="https://github.com/user-attachments/assets/3d7fa462-c29c-485f-9417-8baae29e205a" />
 
