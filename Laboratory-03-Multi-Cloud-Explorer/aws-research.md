@@ -26,5 +26,6 @@ The **AWS Management Console** is the web-based dashboard used to provision, con
 3. **Enterprise migration** projects using AWS Migration Hub and hybrid tools to move legacy workloads to the cloud.
 
 ## Screenshot
-<img width="1906" height="912" alt="Screenshot 2026-08-25 124414" src="https://github.com/user-attachments/assets/65859771-d483-46e4-ade0-4c1b52b2e9b9" />
+<img width="1906" height="912" alt="aws-homepage" src="https://github.com/user-attachments/assets/725737c2-5678-4e99-85a3-594ea727e88a" />
+
 
