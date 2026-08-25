@@ -12,8 +12,8 @@ The **AWS Management Console** is the web-based dashboard used to provision, con
 ## Four (4) Core Services
 1. **Amazon EC2 (Elastic Compute Cloud)** – Resizable virtual servers (instances) for running applications.
 2. **Amazon S3 (Simple Storage Service)** – Object storage for files, backups, static websites, and data lakes.
-3. **Amazon RDS (Relational Database Service)** – Managed relational databases (MySQL, PostgreSQL, SQL Server, etc.).
-4. **AWS IAM (Identity and Access Management)** – Manages users, groups, roles, and permissions for secure access control.
+3. **Amazon RDS (Relational Database Service)** – Managed relational databases (MySQL, PostgreSQL, SQL Server, etc.) without manual server maintenance.
+4. **Amazon VPC (Virtual Private Cloud)** – Lets you provision an isolated, private virtual network within AWS to control how your resources connect and communicate.
 
 ## Three (3) Advantages
 1. **Largest service catalog** – AWS has the widest breadth of services of any provider, reducing the need for third-party tools.
