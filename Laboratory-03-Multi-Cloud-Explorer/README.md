@@ -8,15 +8,15 @@
 ### Migration Question
 **If this Linux server were migrated to the cloud, which AWS, Azure, and GCP services could host it?**
 
-Given the server's small footprint — 1 vCPU, ~2GB RAM, and a ~19GB disk — this workload fits comfortably into the entry-level/burstable-performance instance tiers offered by each provider, rather than a large compute-optimized instance.
+Based on the specs gathered — 1 vCPU, about 2GB of RAM, and a ~19GB disk — this server fits comfortably into the entry-level/burstable-performance instance tiers offered by each provider, rather than needing a large compute-optimized instance.
 
-**AWS:** This server could be hosted on **Amazon EC2** using a burstable instance type such as **t3.small** or **t3.micro** (1–2 vCPUs, 1–2GB RAM), which is designed for workloads with low, intermittent CPU usage. Its root volume could be provisioned using **Amazon EBS (Elastic Block Store)** with a 20GB General Purpose SSD (gp3) volume to match the current disk size.
+**AWS:** This server could be hosted on **Amazon EC2** using a burstable instance type such as **t3.small** or **t3.micro** (1–2 vCPUs, 1–2GB RAM), since it's designed for workloads with low, intermittent CPU usage like this one. For the root volume, **Amazon EBS (Elastic Block Store)** with a 20GB General Purpose SSD (gp3) volume would match the current disk size.
 
-**Azure:** The equivalent host would be an **Azure Virtual Machine** using the **B-series** (burstable) size, such as **B1s** or **B1ms** (1 vCPU, 1–2GB RAM), which is Azure's cost-efficient tier for light, non-continuous workloads. Storage would map to an **Azure Managed Disk** (Standard SSD) sized around 20–30GB.
+**Azure:** On Azure, an **Azure Virtual Machine** using the **B-series** (burstable) size, such as **B1s** or **B1ms** (1 vCPU, 1–2GB RAM), would fit — Azure's cost-efficient tier for light, non-continuous workloads. For storage, an **Azure Managed Disk** (Standard SSD) sized around 20–30GB would work well.
 
-**GCP:** On Google Cloud, this maps to a **Compute Engine** instance using the **e2-small** or **e2-micro** machine type (1–2 vCPUs, 1–2GB RAM), part of GCP's cost-optimized general-purpose family. The disk would use **Persistent Disk (Standard or Balanced)** sized to match the ~20GB root volume.
+**GCP:** On Google Cloud, a **Compute Engine** instance with the **e2-small** or **e2-micro** machine type (1–2 vCPUs, 1–2GB RAM) fits, as part of GCP's cost-optimized general-purpose family. For storage, **Persistent Disk (Standard or Balanced)** sized to match the ~20GB root volume would be appropriate.
 
-**Summary:** Across all three providers, this server's low CPU and memory footprint means it belongs in each provider's cheapest general-purpose/burstable tier (AWS t3.micro/small, Azure B1s/B1ms, GCP e2-micro/small) rather than any compute- or memory-optimized instance family — keeping cloud hosting costs minimal for a workload this size.
+**Summary:** Comparing all three providers, this server's low CPU and memory footprint means it belongs in each provider's cheapest general-purpose/burstable tier (AWS t3.micro/small, Azure B1s/B1ms, GCP e2-micro/small) rather than any compute- or memory-optimized instance family — keeping cloud hosting costs minimal for a workload this size.
 
 **Operating System Info**
 
