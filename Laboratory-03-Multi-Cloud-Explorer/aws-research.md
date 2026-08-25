@@ -20,7 +20,7 @@ The **AWS Management Console** is the web-based dashboard used to provision, con
 2. **Mature ecosystem** – The largest community, most third-party integrations, and the most available documentation/tutorials.
 3. **Global reach** – The most Regions and Availability Zones of any provider, useful for latency-sensitive, globally distributed apps.
 
-## Three (3) Typical Enterprise Use Cases
+## Typical Enterprise Use Cases
 1. **E-commerce platforms** needing auto-scaling compute and highly available storage during traffic spikes.
 2. **Media and entertainment** companies using S3 and CloudFront for large-scale content storage and delivery.
 3. **Enterprise migration** projects using AWS Migration Hub and hybrid tools to move legacy workloads to the cloud.
