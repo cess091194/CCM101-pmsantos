@@ -20,4 +20,5 @@ Microsoft Azure is by far the best choice for Microsoft integration. It connects
 Google Cloud Platform leads in both areas. It created Kubernetes and offers GKE as the most mature managed Kubernetes service, and its Vertex AI platform combined with custom TPU hardware gives it an edge for training and deploying machine learning models.
 
 **4. Which cloud platform would you personally choose and why?**
+Personally, I would choose AWS because it offers the widest range of services and has the largest job market demand, making it the most practical platform to build skills on as a starting point. It also has the largest community and the most tutorials and documentation available online, which means it's easier to find help whenever I run into a problem while learning.
 
