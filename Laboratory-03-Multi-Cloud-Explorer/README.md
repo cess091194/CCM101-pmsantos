@@ -4,8 +4,6 @@
 - **Memory:** 1.9 GiB total RAM (1.5 GiB available), 1 GiB swap
 - **Disk Space:** 19 GB root partition (13 GB available, 30% used)
 ---
-**If this Linux server were migrated to the cloud, which AWS, Azure, and GCP services could host it?**
-
 Based on the specs gathered — 1 vCPU, about 2GB of RAM, and a ~19GB disk — this server fits comfortably into the entry-level/burstable-performance instance tiers offered by each provider, rather than needing a large compute-optimized instance.
 
 **AWS:** This server could be hosted on **Amazon EC2** using a burstable instance type such as **t3.small** or **t3.micro** (1–2 vCPUs, 1–2GB RAM), since it's designed for workloads with low, intermittent CPU usage like this one. For the root volume, **Amazon EBS (Elastic Block Store)** with a 20GB General Purpose SSD (gp3) volume would match the current disk size.
