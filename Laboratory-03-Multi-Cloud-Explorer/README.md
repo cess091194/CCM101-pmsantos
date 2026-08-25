@@ -18,8 +18,6 @@ Given the server's small footprint — 1 vCPU, ~2GB RAM, and a ~19GB disk — th
 
 **Summary:** Across all three providers, this server's low CPU and memory footprint means it belongs in each provider's cheapest general-purpose/burstable tier (AWS t3.micro/small, Azure B1s/B1ms, GCP e2-micro/small) rather than any compute- or memory-optimized instance family — keeping cloud hosting costs minimal for a workload this size.
 
-### Terminal Screenshots
-
 **Operating System Info**
 
 <img width="823" height="285" alt="killercoda-terminal" src="https://github.com/user-attachments/assets/58bd54f4-222f-4f2b-a4de-4f41ac43cde6" />
