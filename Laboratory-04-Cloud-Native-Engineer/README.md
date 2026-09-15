@@ -2,11 +2,12 @@
 In this lab, I took on the role of a Cloud-Native Engineer at CloudNova Technologies. The client I was working with was still using traditional Virtual Machines and wanted to understand why containers might be a better option. My task was to research the differences between VMs and containers, then use Docker to deploy, manage, and remove a containerized Nginx web server as a live demonstration.
 
 ## Objectives
-- Differentiate between VMs and Containers
-- Access a Docker-enabled environment using KillerCoda
-- Execute fundamental Docker CLI commands
-- Deploy and manage a containerized Nginx application
-- Document container operations professionally
+- Differentiate between traditional Virtual Machine (VMs) and Containers.
+- Access a Docker-enabled cloud environment using KillerCoda.
+- Execute fundamental Docker CLI (Command Line Interface) commands.
+- Pull, run, manage, and terminate containerized application (Nginx).
+- Create professional technical documentation of container operations using Markdown.
+- Continue developing a well-organized GitHub Cloud Computing Portfolio.
 
 ## Docker Commands Executed
 - `docker --version`
