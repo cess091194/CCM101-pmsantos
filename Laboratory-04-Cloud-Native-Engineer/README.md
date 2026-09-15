@@ -1,5 +1,3 @@
-# Laboratory 04: The Cloud-Native Engineer
-
 ## Mission Overview
 In this lab, I took on the role of a Cloud-Native Engineer at CloudNova Technologies. The client I was working with was still using traditional Virtual Machines and wanted to understand why containers might be a better option. My task was to research the differences between VMs and containers, then use Docker to deploy, manage, and remove a containerized Nginx web server as a live demonstration.
 
