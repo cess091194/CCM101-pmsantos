@@ -1,5 +1,3 @@
-# Laboratory Activity 5: The Cloud Data Engineer
-
 ## Mission Overview
 As part of the Cloud Data Engineering Team at CloudNova Technologies, this laboratory activity involved deploying an S3-compatible Object Storage server (MinIO) using Docker to support a client's photo-sharing application.
 
