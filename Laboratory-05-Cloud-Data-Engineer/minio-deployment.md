@@ -15,7 +15,7 @@ I accessed the MinIO Web Console through **port 9001**, which I opened using Kil
 
 ## Bucket Created
 
-I created a bucket named **client-photos** and uploaded a test file named `sample.txt` into it to confirm the setup worked.
+I created a bucket named **client-photos** and uploaded a test file named `test-upload.txt` into it to confirm the setup worked.
 
 ## Explanation of the -e Flags (Environment Variables)
 
