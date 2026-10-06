@@ -1,10 +1,17 @@
 ## Mission Overview
-CloudNova Technologies has a client, a university, that wants to stop paying
-for Google Drive and host its own private, secure cloud storage system. This
-mission was to deploy a proof-of-concept Nextcloud environment using a
-two-tier architecture: a MariaDB database container and a Nextcloud web
-container, linked together using Docker Compose in a KillerCoda Ubuntu
-Playground.
+In earlier missions, only single containers were deployed, like a standalone
+web server or a storage bucket. Real-world enterprise applications are
+usually multi-tier systems, where a frontend web application communicates
+with a backend database. Deploying each container manually one by one can
+easily lead to mistakes.
+
+This mission introduces Docker Compose and the shift from manual commands to
+Infrastructure as Code (IaC). A YAML file was used to define a multi-container
+private cloud storage application (Nextcloud and MariaDB), and the whole
+stack was deployed with a single command in a KillerCoda Ubuntu Playground.
+
+A junior engineer deploys servers by typing commands; a senior engineer
+deploys infrastructure by writing code.
 
 ## Objectives
 - Explain the concept of a multi-tier application architecture
